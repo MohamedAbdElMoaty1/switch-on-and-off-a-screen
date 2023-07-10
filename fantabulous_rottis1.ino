@@ -2,7 +2,7 @@
  int button = 9 ;
  int ledstatus =0 ;
  int buttonstatus=0 ; 
-
+ int d = 500 ;
 void setup()
 {
   pinMode(led , OUTPUT);
@@ -19,13 +19,13 @@ buttonstatus =digitalRead(button) ;
   {
   digitalWrite(led, 1);
     ledstatus = 1 ;
-      delay(350) ;
+      delay(d) ;
   }
     else
     {
     digitalWrite(led , 0);
      ledstatus = 0 ;   
-      delay(350) ;
+       delay(d) ;
 
     }
     
