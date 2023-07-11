@@ -2,7 +2,7 @@
  int button = 9 ;
  int ledstatus =0 ;
  int buttonstatus=0 ; 
- int d = 500 ;
+ int d = 250 ;
 void setup()
 {
   pinMode(led , OUTPUT);
